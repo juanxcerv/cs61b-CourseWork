@@ -1,0 +1,19 @@
+DB61B System.  Version 1.0.
+Stored fiji.db
+Loaded fiji.db
+Contents of fiji:
+  William yes 3 5
+  Marvin no 0 2
+Stored heroes.db
+Loaded heroes.db
+Contents of heroes:
+  Leoric march yes tank
+  Valla strife yes assassin
+  Abathur monstrosity no specialist
+Search results:
+  Valla assassin
+  Abathur specialist
+  Leoric tank
+Search results:
+  William Leoric
+  Marvin Leoric

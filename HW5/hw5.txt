@@ -1,0 +1,27 @@
+
+HW #5.
+
+Question D.
+
+1.Θ(x*x)
+
+
+2.0(x^3/2)
+
+
+3.0(N*N*N)
+
+
+4.0(M*N)
+
+
+5.0(2^N) makes two recursive calls each time f5 is called
+
+
+6.Using the definition log based b of f(x) <= log based 10 of f(x) for some x > M, we can set K > log based b of f(x) divided by log based 10 of f(x). 
+
+
+7.By definition log p(x) <= k*log(x) for some k and x > M . The constant is easy to find k >= log p(x) / log(x). Finding a constant k such that that is true will insure that log p(x) does not grow faster than log(x). To ensure that with a bounds on x is trickier since p(x) represent the functions that take x and grow them by degree of the positive polynomal. Thereofore the constant k is solely respsonsible for ensuring that no matter how much faster log p(x) grows, multiping log x by k will always be greater.
+
+
+8.stair function of f(n) is an element of O(g(n)) because there exists scalar multiple K of f(n) that is greater than the stir function of f(n), take for example the output 7.5 of f(n). LHS will increment to 8 and RHS has scalar K > 8/7. In general K > stair function of f(n)/g(n).

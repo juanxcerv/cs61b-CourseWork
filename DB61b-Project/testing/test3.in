@@ -1,0 +1,15 @@
+create table fiji (pledge, yacht, girlfriends, alcoholtolerance);
+create table heroes (name, heroic, overpowered, role);
+insert into heroes values 'Leoric', 'march', 'yes', 'tank';
+insert into heroes values 'Valla', 'strife', 'yes', 'assassin';
+insert into heroes values 'Abathur', 'monstrosity', 'no', 'specialist';
+insert into fiji values 'William', 'yes', '3', '5';
+insert into fiji values 'Marvin', 'no', '0', '2';
+store fiji;
+load fiji;
+print fiji;
+store heroes;
+load heroes;
+print heroes;
+select name, role from heroes;
+select fiji.pledge, name from fiji, heroes where role = 'tank';
